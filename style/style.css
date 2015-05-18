@@ -1,0 +1,529 @@
+a{cursor: pointer;}
+body,html{font:12px/1.5 "微软雅黑","宋体B8B\4F53",Arial,sans-serif;*padding-top:35px;}
+
+div::after, dl::after, ul::after, .clearfix::after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+div, dl, ul, .clearfix {
+}
+ol, ul, li {
+    list-style: outside none none;
+}
+/*====================================================================================*/
+#bigLogo
+{
+    background: url("../image/logo.png") no-repeat scroll 15px 0px transparent;
+    width: 158px;
+    height: 207px;
+    display: block;
+    position: fixed;
+    top:0px;
+
+}
+
+ul.nav_menu
+{
+    position:fixed;
+    top:230px;
+    left:20px;
+    bottom:auto;
+}
+ul.nav_menu li
+{
+    position:relative;
+    display: block;
+    margin-left:0;
+    list-style-type: none;
+    width:100%;
+}
+ul.nav_menu .icon
+{
+    height:60px;
+    position:relative;
+    padding-bottom:5px;
+    display:block;
+    margin:0 auto;
+}
+
+.nav_list{
+    position : fixed;
+    right: 0px;
+    top:240px;
+}
+.nav_list li{
+    position: relative;
+    height:48px;
+    width:  48px;
+    margin-top: 5px;
+}
+.nav_list a{
+    width: 100%;
+    height:100%;
+    background: url("../image/w60.png") repeat ;
+    position: absolute;
+    right: 0px;
+    display: block;
+}
+.nav_list a:hover{
+    background:#FFFFFF;
+}
+.nav_list .arrow{
+    background: #2EA8D2;
+}
+.nav_list .arrow:hover{
+    background: #49B9EA;
+}
+.nav_list .icon{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: none;
+    background: url("../image/iconList.png") no-repeat;
+    top: 50%;
+    margin-top:-11px;
+    right: 14px;
+}
+.nav_list .icon_check{background-position:0 0;}
+.nav_list .icon_bag{background-position:-20px 0;}
+.nav_list .icon_download{background-position:-40px 0;}
+.nav_list .icon_en{background-position:-60px 0;}
+.nav_list .icon_blog{background-position:-80px 0;}
+.nav_list .icon_arrow{background-position:-100px 0;}
+
+ .content_area{
+    height: 48px;
+    font-size: 13px;
+    line-height: 48px;
+    padding-left: 10px;
+    padding-right: 48px;
+    background: #fff ;
+     display: none;
+}
+.my_input{
+    height: 30px;
+    line-height: 30px;
+
+}
+.my_button{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    background: #999;
+    border: 1px solid #888;
+    padding: 0 20px;
+    margin: 0 5px;
+    color: #ffffff;
+}
+/*如何用JS代码实现*/
+#check_rcion:hover .content_area{
+     display: block;
+ }
+#bag_rcion:hover .content_area{
+    display: block;
+}
+#download_rcion:hover .content_area{
+    display: block;
+}
+#en_rcion:hover .content_area{
+    display: block;
+}
+#blog_rcion:hover .content_area{
+    display: block;
+}
+#arrow_rcion:hover .content_area{
+    display: block;
+}
+.wallpaper{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0%;
+    z-index:-100;
+    overflow: hidden;
+
+}
+.wallpaper img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+#main{
+    margin: 0 auto;
+    padding-top: 70px;
+    position: relative;
+    width: 840px;
+
+}
+.section01{
+    background: url("../image/bgN011.png") repeat;
+    margin-bottom: 70px;
+    min-height: 260px;
+    padding: 40px;
+}
+.t{
+    background: url("../image/hello.png") no-repeat scroll 0 15px rgba(0, 0, 0, 0);
+    font-size: 58px;
+    height: 100px;
+    overflow: hidden;
+    padding-left: 230px;
+
+    position: relative;
+    font-weight: normal;
+    margin: 0;
+}
+.t span{
+    background: url("../image/tripPicS.png")  no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    bottom: 0px;
+    display: inline-block;
+    height: 57px;
+    position: absolute;
+    right: 0;
+    width: 154px;
+}
+.a_title{
+    text-decoration: blink !important;
+    font-size: 70px;
+    color: #fff;
+    position: absolute;
+    bottom: 0px;
+}
+.a_title:hover{
+    color: #fff;
+}
+.a_title:visited{
+    color: #fff;
+    outline: none!important;
+}
+a{font-family: 微软雅黑}
+.desc{
+    position: relative;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.8;
+    font-family: '微软雅黑';
+}
+.menu01{
+    margin-top: 15px;
+}
+.menu01 li{
+    display: inline-block;
+    padding: 5px 10px;
+    background: url("../image/opacity54.png") repeat;
+}
+.menu01 li a{
+    color: #fff;
+    text-decoration: none!important;
+}
+.menu01 li a:hover{
+    color: #fff;
+}
+.section02{
+    background: url("../image/bgN021.png") repeat;
+    height: 650px;
+    margin-bottom: 70px;
+    min-height: 260px;
+    padding: 40px;
+}
+.partAT{
+    position: relative;
+    font-size: 60px;
+}
+.partAT a{
+    color: #fff!important;
+}
+.partAT a:hover{
+    text-decoration: none!important;
+}
+
+
+.moreIcon{
+    background: url("../image/moreIcon.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline;
+    height: 57px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    width: 57px;
+}
+.img_list{
+    padding-top:20px;
+}
+
+.img_list li > a {
+    display: inline-block;
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+/*如何使用float使元素排列成表格状？*/
+.section02    .txt{
+    background: url("../image/opacity60.png") repeat ;
+    /*bottom: 0;*/
+    /*left: 0;*/
+    /*position: absolute;*/
+    /*width: 100%;*/
+    /*z-index:1000;*/
+    width: 100%;
+    margin-top: -20px;
+    position: relative;
+    color: #fff;
+}
+.txt span {
+    display: inline-block;
+    padding: 6px 12px;
+}
+
+.section03{
+    background: url("../image/bgN031.png") repeat;
+    margin-bottom: 70px;
+    min-height: 260px;
+    padding: 40px;
+}
+.section03 .list02{
+    margin: 0 -28px 20px 8px;
+
+}
+.section03 .list02 li{
+    background: url("../image/opacity70.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    height: 233px;
+    margin: 16px 16px 0 0;
+    position: relative;
+    width: 236px;
+}
+.pic{
+    display: block;
+    height: 146px;
+    overflow: hidden;
+}
+.tag_bar{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.section03 .tag_bar a{
+    background: none repeat scroll 0 0 #d62f34;
+    border-radius: 3px;
+    position: relative;
+
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    height: 22px;
+    line-height: 22px;
+    padding: 0 5px;
+    z-index: 100;
+}
+.section03 .txt{
+    font-size: 14px;
+    line-height: 86px;
+    padding: 0 10px;
+    text-align: center;
+}
+.section03 .txt a{
+    color: #888888;
+    text-decoration: none;
+}
+.section04{
+    background: url("../image/bgN041.png") repeat;
+    margin-bottom: 70px;
+    min-height: 260px;
+    padding: 40px;
+}
+.section04 .list03{
+    margin-right: -30px;
+    padding-bottom: 40px;
+}
+
+.section04 .list03 li{
+    float: left;
+    height: 178px;
+    margin: 18px 18px 0 0;
+    overflow: hidden;
+    width: 178px;
+}
+.section04 .list03 li a{
+    display: block;
+    height: 178px;
+    overflow: hidden;
+    position: relative;
+    width: 178px;
+    text-align: center;
+
+}
+.section04 .list03 li a:hover .div_hover{
+    display: block;
+}
+.section04 .list03  span{
+    background: url("../image/opacity60.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    position: absolute;
+    width: 100%;
+    display: block;
+    color: #fff;
+    right: 0;
+    top: 0;
+}
+.section04 .list03 .div_hover{
+    background: url("../image/172x172Bg.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
+    height: 178px;
+    width: 178px;
+    z-index:1000;
+}
+
+.div_hover strong{
+    color: #84261d;
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0 auto;
+    padding-top: 18px;
+    width: 144px;
+}
+.div_hover .txt{
+    color: #666;
+    height: 100px;
+    line-height: 1.6;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 144px;
+}
+
+.section05{
+    background: url("../image/bgN051.png");
+    margin-bottom: 70px;
+    min-height: 260px;
+    padding: 40px;
+}
+.list04{
+    margin-right: -30px;
+    padding-bottom: 40px;
+}
+.list04 li{
+    background: url("../image/opacity70.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    height: 233px;
+    margin: 16px 16px 0 0;
+    position: relative;
+    width: 236px;
+}
+.section05 .txt{
+    text-align: center;
+    font-size: 14px;
+    line-height: 86px;
+    padding: 0 10px;
+}
+.section05 .txt a{
+    color: #737373;
+    text-decoration: none;
+}
+.section05 .txt a:hover{
+    color: #737373;
+}
+.list_btn{
+    position:relative;
+    width: 100%;
+    text-align: center;
+    height: 16px;
+}
+.list_btn li{
+    background: url("../image/icoSmallCir.png") no-repeat;
+    height: 16px;
+    margin: 0 3px;
+    width: 15px;
+    display: inline-block;
+}
+.list_btn a{
+    text-indent: -9999em!important;
+    overflow: hidden!important;
+}
+.section06{
+    background: url("../image/bgN061.png") repeat;
+    margin-bottom: 70px;
+    min-height: 260px;
+    padding: 40px;
+}
+.section06 .t1{
+    text-align: center;
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+    font-family: 微软雅黑;
+}
+.section06 .t2{
+    color: #fff;
+    font-size: 48px;
+    overflow: hidden;
+    padding: 30px 0 20px;
+    position: relative;
+    text-align: center;
+    font-family: 微软雅黑;
+}
+.section06 .lineL{
+    background: url("../image/whiteLine.png")  repeat-x scroll 0 50% rgba(0, 0, 0, 0);
+    display: block;
+    font-size: 1px;
+    height: 2px;
+    line-height: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 56px;
+    width: 260px;
+}
+.section06 .lineR{
+    background: url("../image/whiteLine.png")  repeat-x scroll 0 50% rgba(0, 0, 0, 0);
+    display: block;
+    font-size: 1px;
+    height: 2px;
+    line-height: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 56px;
+    right: 0px;
+    width: 260px;
+}
+.logos{
+    padding-top: 10px
+}
+.list05{
+    margin-right: -25px;
+}
+.list05 li{
+    float: left;
+    height: 105px;
+    margin: 0 25px 25px 0;
+    overflow: hidden;
+    width: 104px;
+}
+.list05 li a{
+    background: url("../image/104x105.png") no-repeat scroll 0 -105px rgba(0, 0, 0, 0);
+    display: block;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+}
+.list05 li a:hover{
+    background-position: 0 0;
+}
+.list05 li img{
+    display: inline-block;
+    vertical-align: middle;
+}
+.list05 li b{
+    display: inline-block;
+    height: 100%;
+    margin-top: -1px;
+    vertical-align: middle;
+    width: 0;
+}
